@@ -1,0 +1,102 @@
+Sure, here are 100 C++ programming questions for beginners:
+
+Write a program to print "Hello, World!".
+Write a program to print the sum of two numbers.
+Write a program to find the largest among three numbers.
+Write a program to check if a number is even or odd.
+Write a program to check if a number is positive, negative, or zero.
+Write a program to find the factorial of a number.
+Write a program to check if a number is prime or not.
+Write a program to print Fibonacci series up to n terms.
+Write a program to check if a year is leap year or not.
+Write a program to reverse a number.
+Write a program to check if a string is palindrome or not.
+Write a program to find the length of a string.
+Write a program to concatenate two strings.
+Write a program to compare two strings.
+Write a program to convert temperature from Celsius to Fahrenheit.
+Write a program to find the sum of natural numbers up to n.
+Write a program to find the GCD (Greatest Common Divisor) of two numbers.
+Write a program to find the LCM (Least Common Multiple) of two numbers.
+Write a program to check if a given string is a valid identifier or not.
+Write a program to find the roots of a quadratic equation.
+Write a program to find the sum of digits of a number.
+Write a program to check if a number is Armstrong number or not.
+Write a program to find the area of a circle.
+Write a program to check if a given year is a leap year or not using functions.
+Write a program to find the reverse of a string using recursion.
+Write a program to find the factorial of a number using recursion.
+Write a program to find the nth Fibonacci number using recursion.
+Write a program to check if a given number is a palindrome or not using recursion.
+Write a program to find the sum of digits of a number using recursion.
+Write a program to convert decimal to binary.
+Write a program to convert binary to decimal.
+Write a program to convert decimal to octal.
+Write a program to convert octal to decimal.
+Write a program to convert decimal to hexadecimal.
+Write a program to convert hexadecimal to decimal.
+Write a program to find the area of a rectangle.
+Write a program to find the area of a triangle.
+Write a program to swap two numbers without using a third variable.
+Write a program to check if a number is perfect or not.
+Write a program to find the sum of elements in an array.
+Write a program to find the largest element in an array.
+Write a program to find the second largest element in an array.
+Write a program to sort an array in ascending order.
+Write a program to sort an array in descending order.
+Write a program to merge two arrays into a third array.
+Write a program to reverse an array.
+Write a program to find the sum of elements in a matrix.
+Write a program to find the transpose of a matrix.
+Write a program to add two matrices.
+Write a program to multiply two matrices.
+Write a program to find the largest element in a matrix.
+Write a program to find the smallest element in a matrix.
+Write a program to find the sum of diagonal elements in a matrix.
+Write a program to check if a matrix is symmetric or not.
+Write a program to check if a matrix is sparse or not.
+Write a program to implement a stack using an array.
+Write a program to implement a queue using an array.
+Write a program to implement a stack using linked list.
+Write a program to implement a queue using linked list.
+Write a program to implement a binary search tree (BST).
+Write a program to implement insertion sort.
+Write a program to implement selection sort.
+Write a program to implement bubble sort.
+Write a program to implement merge sort.
+Write a program to implement quick sort.
+Write a program to implement linear search.
+Write a program to implement binary search.
+Write a program to implement breadth-first search (BFS) in a graph.
+Write a program to implement depth-first search (DFS) in a graph.
+Write a program to find the factorial of a number using a class and object.
+Write a program to find the sum of digits of a number using a class and object.
+Write a program to implement operator overloading for ‘+’ operator.
+Write a program to implement operator overloading for ‘++’ operator.
+Write a program to demonstrate the concept of inheritance using classes.
+Write a program to demonstrate the concept of polymorphism using classes.
+Write a program to demonstrate the concept of encapsulation using classes.
+Write a program to demonstrate the concept of abstraction using classes.
+Write a program to demonstrate exception handling using try-catch block.
+Write a program to read and write to a text file.
+Write a program to find the factorial of a number using a recursive function in a class.
+Write a program to implement a simple calculator using switch case.
+Write a program to implement a simple banking system using classes and objects.
+Write a program to implement a basic shopping cart using classes and objects.
+Write a program to find the sum of elements in an array using pointers.
+Write a program to find the largest element in an array using pointers.
+Write a program to swap two numbers using pointers.
+Write a program to reverse a string using pointers.
+Write a program to concatenate two strings using pointers.
+Write a program to count the number of vowels and consonants in a string.
+Write a program to convert a decimal number to Roman numerals.
+Write a program to convert a Roman numeral to decimal number.
+Write a program to check if a number is a perfect square or not.
+Write a program to convert a decimal number to binary using bitwise operators.
+Write a program to reverse a number using bitwise operators.
+Write a program to count the number of set bits in a number using bitwise operators.
+Write a program to find the factorial of a number using ternary operator.
+Write a program to find the sum of natural numbers using recursion and ternary operator.
+Write a program to implement a simple ATM machine using functions and switch case.
+Write a program to implement a basic tic-tac-toe game.
+Write a program to implement a simple chatbot using functions and switch case.
