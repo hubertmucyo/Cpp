@@ -95,22 +95,24 @@ void main_menu(){
 				break;
 			default:
 				cout<<"Invalid option!!\n";
+				cin.ignore();
 				goto start;
 				break;
 		}
+	cout<<"Would you like to continue the application[Y/N?]: \n";
+	cin>>cont;
 	asker:
-		cout<<"Would you like to continue the application[Y/N?]: \n";
-		cin>>cont;
-			if (cont=='y' || cont=='Y'){
-				goto start;
-			}
-			else if(cont=='n' || cont=='N'){
-				cout<<"\n\nThanks for using our app!\n";
-			}
-			else{
-				cout<<"Invalid option, PLease specify if Yes or NO!\n";
-				goto asker;
-			}
+		if (cont=='y' || cont=='Y'){
+			goto start;
+		}
+		else if(cont=='n' || cont=='N'){
+			cout<<"\n\nThanks for using our app!\n";
+		}
+		else{
+			cout<<"Invalid option, PLease specify if Yes or NO!\n";
+			break;
+			goto asker;
+		}
 	
 }
 
