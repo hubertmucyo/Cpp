@@ -56,7 +56,7 @@ int main(){
 	cin>>a>>b>>c;
 	discriminant();
 
-	cout<<"The graph of the quadratic equation is:\n\n";
+	cout<<"\n\nThe graph of the quadratic equation is:\n\n";
 	quadratic_graph();
 
 	return 0;
