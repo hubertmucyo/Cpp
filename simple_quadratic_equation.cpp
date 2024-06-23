@@ -30,10 +30,34 @@ void discriminant(){
 
 }
 
+
+void quadratic_graph() {
+    for (int y = 10; y >= -10; --y) {
+        for (int x = -10; x <= 10; ++x) {
+            double fx = a * x * x + b * x + c;
+            if (round(fx) == y) {
+                cout << "*";
+            } else if (x == 0 && y == 0) {
+                cout << "+";
+            } else if (x == 0) {
+                cout << "|";
+            } else if (y == 0) {
+                cout << "-";
+            } else {
+                cout << " ";
+            }
+        }
+        cout << "\n";
+    }
+}
+
 int main(){
 	cout<<"Enter three coefficients of your equation:\n";
 	cin>>a>>b>>c;
 	discriminant();
-	
+
+	cout<<"The graph of the quadratic equation is:\n\n";
+	quadratic_graph();
+
 	return 0;
 }
