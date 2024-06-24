@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 int choice;
@@ -12,7 +13,7 @@ void prompt(){
 			cin>>celsius[i];
 		 	if (celsius[i]<35 || celsius[i]>42 ){
 		 		cout<<"Invalid Input!\n Accepted Range: 35 to 42 \n";
-		 		cin.fail();
+		 		cin.clear();
 		 		cin.ignore();
 		 		goto prompter;
 			 }
@@ -23,6 +24,7 @@ void prompt(){
 
 
 void summary(){
+	sum=0;
 	for(int i=0;i<12;i++){
 		sum=sum+fahr[i];
 	}
@@ -68,11 +70,15 @@ void bar(){
 	cout<<"----------------------------------\n";
 	cout<<"Time (h) Temperature(95-108) F0.\n";
 	cout<<"----------------------------------\n";
-	for(int i=0,j=0;i<12;i++){
-		cout<<j<<"  "<<fahr[i]<<endl;
-		j=j+2;
-	}
-	cout<<"----------------------------------\n";
+ 	for(int i = 0, j = 0; i < 12; i++, j += 2){
+        int num_x = static_cast<int>(fahr[i] - 95); // Simple scale for bar chart
+        cout << j << "  " <<setw(2)<<fahr[i] << "   ";
+        for(int k = 0; k < num_x; k++){
+            cout << "x";
+        }
+        cout << endl;
+    }
+    cout << "----------------------------------\n";
 }
 
 void main_menu(){
@@ -107,10 +113,10 @@ void main_menu(){
 		}
 		else if(cont=='n' || cont=='N'){
 			cout<<"\n\nThanks for using our app!\n";
+			exit(0);
 		}
 		else{
 			cout<<"Invalid option, PLease specify if Yes or NO!\n";
-			break;
 			goto asker;
 		}
 	
