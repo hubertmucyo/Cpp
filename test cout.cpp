@@ -1,13 +1,7 @@
-//program that doesnt't use cout on everyline
 
-#include <iostream>
-using namespace std;
+#include<stdio.h>
 
-int main(){
-	cout<<"  *  "<<endl
-		<<" *** "<<endl
-		<<"*****"<<endl
-		<<" *** "<<endl
-		<<"  *  "<<endl;
+int main(void){
+	printf("Hello world!!");
 	return 0;
 }
