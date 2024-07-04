@@ -54,6 +54,20 @@ pair <float,float> compute(float a,float b){
 	return make_pair(quotient,rem);
 }
 
+float largest(float b,float n, float m){
+	float largest;
+	if(b>n && b>m){
+		largest=b;
+	}
+	else if(n>b && n>m){
+		largest=n;
+	}
+	else{
+		largest=m;
+	}
+	return largest;
+}
+
 int main(){
 	float num1,num2;
 	cout<<"Enter two numbers:\n";
@@ -76,11 +90,16 @@ int main(){
 	cout<<"The quotient is: "<<computer.first<<endl;
 	cout<<"The remainder is: "<<computer.second<<endl;
 	
+	getch();
+	system("cls");
+	
 	int num3;
 	cout<<"Enter the third number: ";
 	cin>>num3;
 	output(num1,num2);
 	cout<<num3;
+	
+	cout<<"\n The largest in the 3 numbers is: "<<largest(num1,num2,num3)<<endl;
 	
 	return 0;
 }
