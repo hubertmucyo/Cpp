@@ -13,10 +13,11 @@ int main(){
 		i/10;
 	}
 	//check if pal==rev_pal
-	if(pal==reversed_pal)
+	if(pal==reversed_pal){
 		cout<<"The number is a palindrome!\n";
-	else
+	}
+	else{
 		cout<<"The number provided isn't a palidrome!\n";
-	
+}
 	return 0;
 }
